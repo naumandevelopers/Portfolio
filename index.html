@@ -335,34 +335,34 @@ const form = document.querySelector("form");
 
 submit.addEventListener("click",()=>{
 if(firstname.value.length>=5){
-  confirm(firstname.value);
+  // confirm(firstname.value);
   firstname.classList.remove("is-invalid");
   firstname.classList.add("is-valid");
   firstnamefeed.classList.remove("invalid-feedback");
   firstnamefeed.classList.add("valid-feedback");
   if(lastname.value.length>=0){
-    confirm(lastname.value);
+    // confirm(lastname.value);
     lastname.classList.remove("is-invalid");
   lastname.classList.add("is-valid");
   lastnamefeed.classList.remove("invalid-feedback");
   lastnamefeed.classList.add("valid-feedback");
     if(city.value.length>0){
-      confirm(city.value);
+      // confirm(city.value);
         city.classList.remove("is-invalid");
   city.classList.add("is-valid");
   cityFeedback.classList.remove("invalid-feedback");
   cityFeedback.classList.add("valid-feedback");
       if(emailaddress.value.length>=5){
-        confirm(emailaddress.value);
+        // confirm(emailaddress.value);
         emailaddress.classList.remove("is-invalid");
   emailaddress.classList.add("is-valid");
   emailaddressFeedback.classList.remove("invalid-feedback");
   emailaddressFeedback.classList.add("valid-feedback");
         if(comment.value.length>0){
-          comment.classList.remove("is-invalid");
-  comment.classList.add("is-valid");
-  commentFeedback.classList.remove("invalid-feedback");
-  commentFeedback.classList.add("valid-feedback");
+          // comment.classList.remove("is-invalid");
+  // comment.classList.add("is-valid");
+  // commentFeedback.classList.remove("invalid-feedback");
+  // commentFeedback.classList.add("valid-feedback");
           if(condition.checked){
             condition.classList.remove("invalid-feedback")
             conditionFeedback.classList.remove("invalid-feedback")
